@@ -43,10 +43,10 @@ public class PlayerLocomotion : MonoBehaviour
          }
         headTilt *= 0.1f;
 
-        _rb.velocity = camForward * boardSpeed  + camRight * headTilt * boardHandle;
+        _rb.velocity = (camForward * boardSpeed)  + (camRight * headTilt * boardHandle) + new Vector3(0, _rb.velocity.y, 0);
 
-        _rb.velocity += Vector3.down * 9.8f;
-
+        _rb.velocity += Vector3.down * 9.8f * Time.deltaTime;
+        
         // ROTATION OF THE BOARD
         Vector3 eulerRotation = new Vector3(boardObject.transform.eulerAngles.x,  Camera.main.transform.eulerAngles.y + 90, boardObject.transform.eulerAngles.z);
         boardObject.transform.rotation = Quaternion.Euler(eulerRotation);
