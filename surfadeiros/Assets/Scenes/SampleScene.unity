@@ -296,13 +296,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 364530636}
-  m_LocalRotation: {x: 0.096439116, y: -0, z: -0, w: 0.99533886}
-  m_LocalPosition: {x: -1.0036, y: 0.66, z: 8.2}
+  m_LocalRotation: {x: -0.1254685, y: -0, z: -0, w: 0.9920977}
+  m_LocalPosition: {x: -1.0036, y: 0.73, z: 8.18}
   m_LocalScale: {x: 0.9153834, y: 0.9153834, z: 0.9153834}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 9
-  m_LocalEulerAnglesHint: {x: 11.068001, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -14.416, y: 0, z: 0}
 --- !u!1 &463930438
 GameObject:
   m_ObjectHideFlags: 0
@@ -560,10 +560,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   waterRenderers:
   - {fileID: 364530638}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
   waterColor: {r: 0.5377358, g: 0.3828765, b: 0.20545568, a: 1}
   waterTex: {fileID: 2800000, guid: b3b93417e764a48438369dfd5de14b56, type: 3}
   waterTile: {x: 0.15, y: 0.15}
@@ -813,10 +809,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   waterRenderers:
   - {fileID: 829426190}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
   waterColor: {r: 0.18431373, g: 0.666, b: 0.9921569, a: 1}
   waterTex: {fileID: 2800000, guid: b3b93417e764a48438369dfd5de14b56, type: 3}
   waterTile: {x: 0.15, y: 0.15}
