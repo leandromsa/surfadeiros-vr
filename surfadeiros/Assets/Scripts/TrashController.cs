@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class TrashController : MonoBehaviour
 {
-    [SerializeField] PlayerManager playerManager;
     int scoreValue = 5;
 
     // Start is called before the first frame update
@@ -22,8 +21,8 @@ public class TrashController : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         // INCREMENT POINTS
-        if(playerManager)
-            playerManager.IncrementScore(scoreValue);
+        if(other.GetComponent<PlayerManager>())
+            other.GetComponent<PlayerManager>().IncrementScore(scoreValue);
         // DESATIVATE TRASH
         gameObject.SetActive(false);
     }
