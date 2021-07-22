@@ -24,8 +24,6 @@ public class PlayerLocomotion : MonoBehaviour
         var camRight = new Vector3(Camera.main.transform.right.x, 0f, Camera.main.transform.right.z);
         var camForward = new Vector3(Camera.main.transform.forward.x, 0f, Camera.main.transform.forward.z);
         
-        Debug.Log(Camera.main.transform.rotation.eulerAngles.z);
-        
         float headTilt = 0f;
          if(Between(Camera.main.transform.rotation.eulerAngles.z, 0, 30)) {
              headTilt = -Camera.main.transform.rotation.eulerAngles.z;
