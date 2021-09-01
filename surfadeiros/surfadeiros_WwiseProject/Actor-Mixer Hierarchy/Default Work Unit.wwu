@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{2950EFB8-BB73-4B3F-9F90-905F2B8206AE}" SchemaVersion="97">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{2950EFB8-BB73-4B3F-9F90-905F2B8206AE}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="seagul" ID="{8A9C6A03-2A4F-43C6-A1D3-E790C47853C9}" ShortID="1071828150">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="OutputBusVolume" Type="Real64">
+							<ValueList>
+								<Value>12</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA5C8DA8-027D-484B-8EFC-A59E2900D49B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{507FC1C7-587C-4C77-86F7-8AB7DC695199}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="seagul" ID="{3CBA9D07-B805-4972-9C41-C324F3296EA3}">
+							<Language>SFX</Language>
+							<AudioFile>seagul.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="785966956"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="seagul" ID="{3CBA9D07-B805-4972-9C41-C324F3296EA3}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="main_menu_theme" ID="{C76AC67F-4297-40DB-9407-FC61F3D79A32}" ShortID="800544848">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="OutputBusVolume" Type="Real64">
+							<ValueList>
+								<Value>-25</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA5C8DA8-027D-484B-8EFC-A59E2900D49B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{507FC1C7-587C-4C77-86F7-8AB7DC695199}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="370293__mrthenoronha__water-game-theme-loop" ID="{73A2E539-1475-4E0C-B2A5-DDADCD7CE208}">
+							<Language>SFX</Language>
+							<AudioFile>370293__mrthenoronha__water-game-theme-loop.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="391262727"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="370293__mrthenoronha__water-game-theme-loop" ID="{73A2E539-1475-4E0C-B2A5-DDADCD7CE208}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="game_theme" ID="{74A22AC6-86E2-4904-B007-A64E6D8FF5AF}" ShortID="867919912">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="OutputBusVolume" Type="Real64">
+							<ValueList>
+								<Value>-25</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA5C8DA8-027D-484B-8EFC-A59E2900D49B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{507FC1C7-587C-4C77-86F7-8AB7DC695199}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="514800__mrthenoronha__water-game-theme-loop-2" ID="{E48EBF68-DDA6-4C28-93DF-7D936760F75C}">
+							<Language>SFX</Language>
+							<AudioFile>514800__mrthenoronha__water-game-theme-loop-2.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="812780173"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="514800__mrthenoronha__water-game-theme-loop-2" ID="{E48EBF68-DDA6-4C28-93DF-7D936760F75C}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="trash_collect" ID="{27B89655-3835-4AD8-A99E-7225FCDF465C}" ShortID="171148933">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA5C8DA8-027D-484B-8EFC-A59E2900D49B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{507FC1C7-587C-4C77-86F7-8AB7DC695199}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="332629__treasuresounds__item-pickup" ID="{AE94D056-6C9F-48F7-8E33-965580E70B52}">
+							<Language>SFX</Language>
+							<AudioFile>332629__treasuresounds__item-pickup.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="767402136"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="332629__treasuresounds__item-pickup" ID="{AE94D056-6C9F-48F7-8E33-965580E70B52}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="board" ID="{119065F7-3791-4710-AAA5-8D1CF57CF442}" ShortID="191934484">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Pitch" Type="int32">
+							<RTPCList>
+								<RTPC Name="" ID="{3A4F297C-B1BE-4359-A4C2-230E13FEE45B}" ShortID="23126574">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="boardSpeed" ID="{65BC2D6E-793A-450C-A5B0-D93E2D59C9A8}" WorkUnitID="{E314D585-F461-4F30-B7AC-E95D22604EF6}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{D767F985-5266-474E-9DFA-520DE80BD89E}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="65537"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-3200</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>18</XPos>
+												<YPos>-1</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<RTPCList>
+								<RTPC Name="" ID="{0E38055B-AB3C-4C5E-BFEB-8BFD78C42A2B}" ShortID="205250320">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="boardSpeed" ID="{65BC2D6E-793A-450C-A5B0-D93E2D59C9A8}" WorkUnitID="{E314D585-F461-4F30-B7AC-E95D22604EF6}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{6C065D3A-2495-4B47-BD5D-9580257A237C}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-21.26774</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>2.11765</XPos>
+												<YPos>-1.75821</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>18</XPos>
+												<YPos>-0.1079</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA5C8DA8-027D-484B-8EFC-A59E2900D49B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{507FC1C7-587C-4C77-86F7-8AB7DC695199}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="271097__ianstargem__beach-ocean-ambience" ID="{817F47A3-EFBD-4FD9-ADBD-B19024B87CD0}">
+							<Language>SFX</Language>
+							<AudioFile>271097__ianstargem__beach-ocean-ambience.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="757656289"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="271097__ianstargem__beach-ocean-ambience" ID="{817F47A3-EFBD-4FD9-ADBD-B19024B87CD0}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="ocean" ID="{65BC3085-ED4B-4C03-8C0B-4744B4FE7AF5}" ShortID="237546259">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA5C8DA8-027D-484B-8EFC-A59E2900D49B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{507FC1C7-587C-4C77-86F7-8AB7DC695199}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="400632__inspectorj__ambience-seaside-waves-close-a" ID="{71D94A26-E4E6-477E-9D68-5E67AC96B8ED}">
+							<Language>SFX</Language>
+							<AudioFile>400632__inspectorj__ambience-seaside-waves-close-a.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="657336980"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="400632__inspectorj__ambience-seaside-waves-close-a" ID="{71D94A26-E4E6-477E-9D68-5E67AC96B8ED}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

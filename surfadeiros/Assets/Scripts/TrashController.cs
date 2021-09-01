@@ -29,5 +29,6 @@ public class TrashController : MonoBehaviour
             other.GetComponent<PlayerManager>().IncrementScore(scoreValue);
         // DESATIVATE TRASH
         gameObject.SetActive(false);
+        AkSoundEngine.PostEvent("PlayTrashCollect", gameObject);
     }
 }

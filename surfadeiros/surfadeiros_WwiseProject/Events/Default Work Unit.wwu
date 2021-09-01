@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{DA19852C-20D4-429E-A76D-EE1F9217AF7A}" SchemaVersion="97">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{DA19852C-20D4-429E-A76D-EE1F9217AF7A}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="PlayOceanBackground" ID="{C9BBBCFC-7B40-4FC8-BC4F-1CFABD67D87B}">
+					<ChildrenList>
+						<Action Name="" ID="{5E1B4764-0CDD-487D-A497-ECB135CE11EB}" ShortID="675060224">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ocean" ID="{65BC3085-ED4B-4C03-8C0B-4744B4FE7AF5}" WorkUnitID="{2950EFB8-BB73-4B3F-9F90-905F2B8206AE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PlaySeagulBackground" ID="{25C7EBB3-5E19-49AC-84BD-16EF0324AC00}">
+					<ChildrenList>
+						<Action Name="" ID="{E56CC6FE-DCA3-4AF2-88A4-CEBDD09168C3}" ShortID="313233180">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="seagul" ID="{8A9C6A03-2A4F-43C6-A1D3-E790C47853C9}" WorkUnitID="{2950EFB8-BB73-4B3F-9F90-905F2B8206AE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PlayMainMenu" ID="{8EBE7AB0-72B0-45B7-9370-53A98C998056}">
+					<ChildrenList>
+						<Action Name="" ID="{1732092B-41E4-4A47-95CA-BD7569858417}" ShortID="378032378">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="main_menu_theme" ID="{C76AC67F-4297-40DB-9407-FC61F3D79A32}" WorkUnitID="{2950EFB8-BB73-4B3F-9F90-905F2B8206AE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{C5A92556-D4F6-436D-993D-6E481E376ACF}" ShortID="909810168">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ocean" ID="{65BC3085-ED4B-4C03-8C0B-4744B4FE7AF5}" WorkUnitID="{2950EFB8-BB73-4B3F-9F90-905F2B8206AE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{C2C4C919-44B4-48AA-88B3-436688C6B9B9}" ShortID="365523289">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="seagul" ID="{8A9C6A03-2A4F-43C6-A1D3-E790C47853C9}" WorkUnitID="{2950EFB8-BB73-4B3F-9F90-905F2B8206AE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="StopMainMenu" ID="{45A31C40-BED9-4E3C-A402-98E808F9FD7E}">
+					<ChildrenList>
+						<Action Name="" ID="{B792C10C-75A5-46F7-9C23-0155F8FBCD30}" ShortID="817966042">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="main_menu_theme" ID="{C76AC67F-4297-40DB-9407-FC61F3D79A32}" WorkUnitID="{2950EFB8-BB73-4B3F-9F90-905F2B8206AE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{DA93B466-8E70-4EC5-A452-E48F7CFDAE6E}" ShortID="876142996">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ocean" ID="{65BC3085-ED4B-4C03-8C0B-4744B4FE7AF5}" WorkUnitID="{2950EFB8-BB73-4B3F-9F90-905F2B8206AE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{443D225D-43E0-42BC-A880-5E43B19A27E0}" ShortID="934371512">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="seagul" ID="{8A9C6A03-2A4F-43C6-A1D3-E790C47853C9}" WorkUnitID="{2950EFB8-BB73-4B3F-9F90-905F2B8206AE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PlayGame" ID="{86970DB8-C9F0-419D-A42A-4BB076744287}">
+					<ChildrenList>
+						<Action Name="" ID="{4FE835DD-26B2-4EDA-8A0D-0915A6BCFE2F}" ShortID="1065260475">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="game_theme" ID="{74A22AC6-86E2-4904-B007-A64E6D8FF5AF}" WorkUnitID="{2950EFB8-BB73-4B3F-9F90-905F2B8206AE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{DFC86B7A-00EF-49D5-B124-46F2A35B84E8}" ShortID="702698273">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ocean" ID="{65BC3085-ED4B-4C03-8C0B-4744B4FE7AF5}" WorkUnitID="{2950EFB8-BB73-4B3F-9F90-905F2B8206AE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{40E11BDB-F797-465C-93AD-E995550B3CEA}" ShortID="647193491">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="seagul" ID="{8A9C6A03-2A4F-43C6-A1D3-E790C47853C9}" WorkUnitID="{2950EFB8-BB73-4B3F-9F90-905F2B8206AE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="StopGame" ID="{75F9CEAD-6EAA-4DB7-861D-8CD83381D806}">
+					<ChildrenList>
+						<Action Name="" ID="{0A120B74-6063-4DCE-9798-7092F7B9F97D}" ShortID="6792178">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="game_theme" ID="{74A22AC6-86E2-4904-B007-A64E6D8FF5AF}" WorkUnitID="{2950EFB8-BB73-4B3F-9F90-905F2B8206AE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{4F0A286E-A0D0-48B7-ACE6-094B2E9B93A1}" ShortID="325611470">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ocean" ID="{65BC3085-ED4B-4C03-8C0B-4744B4FE7AF5}" WorkUnitID="{2950EFB8-BB73-4B3F-9F90-905F2B8206AE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{5C4021A6-0D5A-40CB-986F-7C2095DF4EEB}" ShortID="570967410">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="seagul" ID="{8A9C6A03-2A4F-43C6-A1D3-E790C47853C9}" WorkUnitID="{2950EFB8-BB73-4B3F-9F90-905F2B8206AE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PlayTrashCollect" ID="{2F8CF49F-5348-4BCA-8D1F-0E8E364FEA77}">
+					<ChildrenList>
+						<Action Name="" ID="{8B8D9693-8EF5-48E5-9F52-6753D2E119ED}" ShortID="705947173">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="trash_collect" ID="{27B89655-3835-4AD8-A99E-7225FCDF465C}" WorkUnitID="{2950EFB8-BB73-4B3F-9F90-905F2B8206AE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PlayBoardSound" ID="{02AE0CC6-78DB-4339-9760-4ED38B553A6C}">
+					<ChildrenList>
+						<Action Name="" ID="{1405FEAF-9615-4FB7-8441-1F20895741BF}" ShortID="316245665">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="board" ID="{119065F7-3791-4710-AAA5-8D1CF57CF442}" WorkUnitID="{2950EFB8-BB73-4B3F-9F90-905F2B8206AE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
