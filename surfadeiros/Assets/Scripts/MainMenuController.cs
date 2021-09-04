@@ -18,7 +18,7 @@ public class MainMenuController : MonoBehaviour
     }
 
     public void startGame() {
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("SceneSeixas");
         AkSoundEngine.PostEvent("StopMainMenu", gameObject);
     }
 
