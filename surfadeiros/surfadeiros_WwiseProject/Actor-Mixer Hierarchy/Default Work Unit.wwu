@@ -148,7 +148,7 @@
 						</Property>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-6</Value>
+								<Value>-22</Value>
 							</ValueList>
 							<RTPCList>
 								<RTPC Name="" ID="{0E38055B-AB3C-4C5E-BFEB-8BFD78C42A2B}" ShortID="205250320">
@@ -168,8 +168,8 @@
 												<Flags>5</Flags>
 											</Point>
 											<Point>
-												<XPos>2.14118</XPos>
-												<YPos>-5.67235</YPos>
+												<XPos>3.52942</XPos>
+												<YPos>-5.26975</YPos>
 												<Flags>0</Flags>
 											</Point>
 											<Point>
@@ -231,6 +231,69 @@
 					</ChildrenList>
 					<ActiveSourceList>
 						<ActiveSource Name="400632__inspectorj__ambience-seaside-waves-close-a" ID="{71D94A26-E4E6-477E-9D68-5E67AC96B8ED}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="wave_crash" ID="{739A9537-8D8D-464C-A3B7-FAB367C483DD}" ShortID="382404522">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="Highpass" Type="int16">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Lowpass" Type="int16">
+							<ValueList>
+								<Value>34</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<RTPCList>
+								<RTPC Name="" ID="{115A6E6B-7E91-425F-8429-D92F5BF41463}" ShortID="918613538">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="waveStrength" ID="{2829A7FA-B207-45E8-8FB9-C45CDBDBCABA}" WorkUnitID="{E314D585-F461-4F30-B7AC-E95D22604EF6}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{828BC4A2-0296-472D-9091-9DE9CD086ECB}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-10.93514</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>0</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA5C8DA8-027D-484B-8EFC-A59E2900D49B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{507FC1C7-587C-4C77-86F7-8AB7DC695199}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="61011__kayyy__wave1" ID="{169C0967-63E4-4B5F-A983-BD7336DBD78C}">
+							<Language>SFX</Language>
+							<AudioFile>61011__kayyy__wave1.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="153946305"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="61011__kayyy__wave1" ID="{169C0967-63E4-4B5F-A983-BD7336DBD78C}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 			</ChildrenList>

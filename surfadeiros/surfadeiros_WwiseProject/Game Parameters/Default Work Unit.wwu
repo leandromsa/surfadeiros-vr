@@ -9,6 +9,7 @@
 						<Property Name="Max" Type="Real64" Value="18"/>
 					</PropertyList>
 				</GameParameter>
+				<GameParameter Name="waveStrength" ID="{2829A7FA-B207-45E8-8FB9-C45CDBDBCABA}"/>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>
