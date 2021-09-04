@@ -23,7 +23,7 @@ public class WaveController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        Debug.Log(waveObject.transform.rotation); 
     }
 
     private void OnTriggerEnter(Collider other)
@@ -39,13 +39,17 @@ public class WaveController : MonoBehaviour
                 ps.Play();
             }
 
+            // SET THE PARENT
             gameObject.transform.parent = other.transform;
+            gameObject.transform.localPosition = Vector3.zero;
+
+
             _tempPlayerLocObj = other.GetComponent<PlayerLocomotion>();
             _tempPlayerLocObj.maxBoardSpeed = _tempPlayerLocObj.maxBoardSpeed + 10f;
 
-            LeanTween.rotateX(waveObject, -90f, 2f);
-            LeanTween.moveLocalY(waveObject, 1.57f, 2f);
-            LeanTween.moveLocalZ(waveObject, waveObject.transform.localPosition.z + 23f,1f);
+            LeanTween.rotate(waveObject,  new Vector3(0f, 0f, -140f), 4f);
+            LeanTween.moveLocalY(waveObject, 1.5f, 1.5f);
+            //LeanTween.moveLocalZ(waveObject, waveObject.transform.localPosition.z - 20f,5f);
 
             AkSoundEngine.PostEvent("PlayWaveCrash", waveObject);
 
@@ -55,12 +59,13 @@ public class WaveController : MonoBehaviour
 
     IEnumerator closeWave()
     {
+        yield return new WaitForSecondsRealtime(5);
         Debug.Log("Wave closed");
-        yield return new WaitForSecondsRealtime(3);
         gameObject.transform.parent = null;
+        LeanTween.moveLocalZ(waveObject, waveObject.transform.localPosition.z - 40f,2f);
         _tempPlayerLocObj.maxBoardSpeed = _tempPlayerLocObj.maxBoardSpeed - 10f;
         ///LeanTween.rotateX(waveObject, 0f, 2f);
-        LeanTween.moveLocalY(waveObject, -4.29f, 1f);
+        LeanTween.moveLocalY(waveObject, -4.29f, 3f);
         //isRunning = false;
 
         yield return new WaitForSecondsRealtime(1);

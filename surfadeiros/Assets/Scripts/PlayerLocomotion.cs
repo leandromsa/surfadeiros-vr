@@ -63,7 +63,7 @@ public class PlayerLocomotion : MonoBehaviour
 
       
 
-        Debug.Log("Velocidade: " + _velocity);  
+        //Debug.Log("Velocidade: " + _velocity);  
         AkSoundEngine.SetRTPCValue("boardSpeed", _velocity);
 
         //float t = (Time.time - _startTime) / accelarationTime;

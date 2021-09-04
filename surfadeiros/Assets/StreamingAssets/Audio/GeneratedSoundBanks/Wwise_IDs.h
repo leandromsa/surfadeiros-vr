@@ -17,6 +17,7 @@ namespace AK
         static const AkUniqueID PLAYGAME = 2354733701U;
         static const AkUniqueID PLAYMAINMENU = 3998606525U;
         static const AkUniqueID PLAYTRASHCOLLECT = 3923765795U;
+        static const AkUniqueID PLAYWAVECRASH = 3140645853U;
         static const AkUniqueID STOPGAME = 1747031839U;
         static const AkUniqueID STOPMAINMENU = 1611511939U;
     } // namespace EVENTS
@@ -24,6 +25,7 @@ namespace AK
     namespace GAME_PARAMETERS
     {
         static const AkUniqueID BOARDSPEED = 1682343768U;
+        static const AkUniqueID WAVESTRENGTH = 4067693637U;
     } // namespace GAME_PARAMETERS
 
     namespace BANKS
