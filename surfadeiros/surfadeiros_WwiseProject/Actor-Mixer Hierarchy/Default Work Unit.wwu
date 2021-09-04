@@ -187,6 +187,9 @@
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA5C8DA8-027D-484B-8EFC-A59E2900D49B}"/>
 						</Reference>
+						<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+							<ObjectRef Name="Hall_Conversation" ID="{E2C3BD70-E5E4-46A5-BDA6-99A92FAAC1AC}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{507FC1C7-587C-4C77-86F7-8AB7DC695199}"/>
 						</Reference>
@@ -241,6 +244,7 @@
 								<Value>1</Value>
 							</ValueList>
 						</Property>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 						<Property Name="Lowpass" Type="int16">
 							<ValueList>
 								<Value>34</Value>
@@ -284,16 +288,16 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<AudioFileSource Name="61011__kayyy__wave1" ID="{169C0967-63E4-4B5F-A983-BD7336DBD78C}">
+						<AudioFileSource Name="wave_crash" ID="{D01D09D0-62EE-4C84-9B48-B7868511A0CA}">
 							<Language>SFX</Language>
-							<AudioFile>61011__kayyy__wave1.wav</AudioFile>
+							<AudioFile>wave_crash.wav</AudioFile>
 							<MediaIDList>
-								<MediaID ID="153946305"/>
+								<MediaID ID="872172390"/>
 							</MediaIDList>
 						</AudioFileSource>
 					</ChildrenList>
 					<ActiveSourceList>
-						<ActiveSource Name="61011__kayyy__wave1" ID="{169C0967-63E4-4B5F-A983-BD7336DBD78C}" Platform="Linked"/>
+						<ActiveSource Name="wave_crash" ID="{D01D09D0-62EE-4C84-9B48-B7868511A0CA}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 			</ChildrenList>

@@ -14,8 +14,9 @@
 				<SoundBank Name="Game" ID="{0C99C367-1698-4F8A-ADF4-0B2E0B6ECC85}">
 					<ObjectInclusionList>
 						<ObjectRef Name="PlayGame" ID="{86970DB8-C9F0-419D-A42A-4BB076744287}" WorkUnitID="{DA19852C-20D4-429E-A76D-EE1F9217AF7A}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="PlayWaveCrash" ID="{77B14D53-E9E4-4219-BB76-3825C6DE7A92}" WorkUnitID="{DA19852C-20D4-429E-A76D-EE1F9217AF7A}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PlayBoardSound" ID="{02AE0CC6-78DB-4339-9760-4ED38B553A6C}" WorkUnitID="{DA19852C-20D4-429E-A76D-EE1F9217AF7A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="StartWave" ID="{D33714BE-E2C0-43C7-9966-C301F7345DA2}" WorkUnitID="{DA19852C-20D4-429E-A76D-EE1F9217AF7A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="StopWaveCrash" ID="{860DCA38-6E04-4A59-B939-12DCA1EF2484}" WorkUnitID="{DA19852C-20D4-429E-A76D-EE1F9217AF7A}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PlayTrashCollect" ID="{2F8CF49F-5348-4BCA-8D1F-0E8E364FEA77}" WorkUnitID="{DA19852C-20D4-429E-A76D-EE1F9217AF7A}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="StopGame" ID="{75F9CEAD-6EAA-4DB7-861D-8CD83381D806}" WorkUnitID="{DA19852C-20D4-429E-A76D-EE1F9217AF7A}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>

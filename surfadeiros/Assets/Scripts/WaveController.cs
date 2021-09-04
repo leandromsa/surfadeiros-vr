@@ -51,7 +51,7 @@ public class WaveController : MonoBehaviour
             LeanTween.moveLocalY(waveObject, 1.5f, 1.5f);
             //LeanTween.moveLocalZ(waveObject, waveObject.transform.localPosition.z - 20f,5f);
 
-            AkSoundEngine.PostEvent("PlayWaveCrash", waveObject);
+            AkSoundEngine.PostEvent("StartWave", waveObject);
 
             StartCoroutine("closeWave");
         }
@@ -67,8 +67,8 @@ public class WaveController : MonoBehaviour
         ///LeanTween.rotateX(waveObject, 0f, 2f);
         LeanTween.moveLocalY(waveObject, -4.29f, 3f);
         //isRunning = false;
-
-        yield return new WaitForSecondsRealtime(1);
+        yield return new WaitForSecondsRealtime(2);
+        AkSoundEngine.PostEvent("StopWaveCrash", waveObject);
         foreach (ParticleSystem ps in particlesSystem)
         {
             ps.Stop();
