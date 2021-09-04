@@ -165,9 +165,9 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="PlayWaveCrash" ID="{77B14D53-E9E4-4219-BB76-3825C6DE7A92}">
+				<Event Name="StartWave" ID="{D33714BE-E2C0-43C7-9966-C301F7345DA2}">
 					<ChildrenList>
-						<Action Name="" ID="{96BA312E-C677-4499-9E82-E20D58A41092}" ShortID="378045202">
+						<Action Name="" ID="{E9927241-8A45-4AB7-8759-BF14068D2766}" ShortID="711247502">
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="wave_crash" ID="{739A9537-8D8D-464C-A3B7-FAB367C483DD}" WorkUnitID="{2950EFB8-BB73-4B3F-9F90-905F2B8206AE}"/>
@@ -176,9 +176,12 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="StartWave" ID="{D33714BE-E2C0-43C7-9966-C301F7345DA2}">
+				<Event Name="StopWaveCrash" ID="{860DCA38-6E04-4A59-B939-12DCA1EF2484}">
 					<ChildrenList>
-						<Action Name="" ID="{E9927241-8A45-4AB7-8759-BF14068D2766}" ShortID="711247502">
+						<Action Name="" ID="{0B2C4F52-56AA-4386-B297-120673355B2B}" ShortID="316391365">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="wave_crash" ID="{739A9537-8D8D-464C-A3B7-FAB367C483DD}" WorkUnitID="{2950EFB8-BB73-4B3F-9F90-905F2B8206AE}"/>

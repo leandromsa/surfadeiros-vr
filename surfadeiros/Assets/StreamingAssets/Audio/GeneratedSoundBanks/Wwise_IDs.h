@@ -17,9 +17,10 @@ namespace AK
         static const AkUniqueID PLAYGAME = 2354733701U;
         static const AkUniqueID PLAYMAINMENU = 3998606525U;
         static const AkUniqueID PLAYTRASHCOLLECT = 3923765795U;
-        static const AkUniqueID PLAYWAVECRASH = 3140645853U;
+        static const AkUniqueID STARTWAVE = 2011151564U;
         static const AkUniqueID STOPGAME = 1747031839U;
         static const AkUniqueID STOPMAINMENU = 1611511939U;
+        static const AkUniqueID STOPWAVECRASH = 3033025971U;
     } // namespace EVENTS
 
     namespace GAME_PARAMETERS
