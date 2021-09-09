@@ -11,7 +11,7 @@ public class PlayerLocomotion : MonoBehaviour
     [SerializeField]
     GameObject boardObject;
 
-    public float maxBoardSpeed = 20f;
+    public float maxBoardSpeed = 40f;
 
     private float _startTime;
     Rigidbody _rb;
@@ -71,7 +71,7 @@ public class PlayerLocomotion : MonoBehaviour
         //        Debug.Log(boardSpeed);
         boardSpeed = Mathf.Lerp(_velocity, maxBoardSpeed, 1f);
 
-        _rb.velocity = ((camForward * boardSpeed)  + (camRight * headTilt * boardHandle) + new Vector3(0, _rb.velocity.y, 0)) + Vector3.down * 9.8f * Time.deltaTime;
+        _rb.velocity = ((camForward * boardSpeed * 1.5f)  + (camRight * headTilt * boardHandle) + new Vector3(0, _rb.velocity.y, 0)) + Vector3.down * 9.8f * Time.deltaTime;
         
         /*if (_rb.velocity.magnitude < boardSpeed) {
             //_rb.AddForce(camForward * boardSpeed, ForceMode.Acceleration);

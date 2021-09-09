@@ -59,7 +59,7 @@ public class WaveController : MonoBehaviour
 
     IEnumerator closeWave()
     {
-        yield return new WaitForSecondsRealtime(5);
+        yield return new WaitForSecondsRealtime(6);
         Debug.Log("Wave closed");
         gameObject.transform.parent = null;
         LeanTween.moveLocalZ(waveObject, waveObject.transform.localPosition.z - 40f,2f);
@@ -67,7 +67,7 @@ public class WaveController : MonoBehaviour
         ///LeanTween.rotateX(waveObject, 0f, 2f);
         LeanTween.moveLocalY(waveObject, -4.29f, 3f);
         //isRunning = false;
-        yield return new WaitForSecondsRealtime(2);
+        yield return new WaitForSecondsRealtime(6);
         AkSoundEngine.PostEvent("StopWaveCrash", waveObject);
         foreach (ParticleSystem ps in particlesSystem)
         {
