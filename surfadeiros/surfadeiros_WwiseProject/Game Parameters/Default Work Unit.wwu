@@ -6,7 +6,7 @@
 				<GameParameter Name="boardSpeed" ID="{65BC2D6E-793A-450C-A5B0-D93E2D59C9A8}">
 					<PropertyList>
 						<Property Name="InitialValue" Type="Real64" Value="0"/>
-						<Property Name="Max" Type="Real64" Value="18"/>
+						<Property Name="Max" Type="Real64" Value="60"/>
 					</PropertyList>
 				</GameParameter>
 				<GameParameter Name="waveStrength" ID="{2829A7FA-B207-45E8-8FB9-C45CDBDBCABA}"/>

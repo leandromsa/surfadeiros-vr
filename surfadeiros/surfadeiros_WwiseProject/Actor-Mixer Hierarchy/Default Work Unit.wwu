@@ -71,6 +71,11 @@
 								<Value>-25</Value>
 							</ValueList>
 						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-2</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -137,7 +142,7 @@
 												<Flags>5</Flags>
 											</Point>
 											<Point>
-												<XPos>18</XPos>
+												<XPos>60</XPos>
 												<YPos>-1</YPos>
 												<Flags>37</Flags>
 											</Point>
@@ -148,7 +153,7 @@
 						</Property>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-22</Value>
+								<Value>-6</Value>
 							</ValueList>
 							<RTPCList>
 								<RTPC Name="" ID="{0E38055B-AB3C-4C5E-BFEB-8BFD78C42A2B}" ShortID="205250320">
@@ -168,13 +173,13 @@
 												<Flags>5</Flags>
 											</Point>
 											<Point>
-												<XPos>3.52942</XPos>
+												<XPos>11.7647333333333</XPos>
 												<YPos>-5.26975</YPos>
 												<Flags>0</Flags>
 											</Point>
 											<Point>
-												<XPos>18</XPos>
-												<YPos>-1.51952</YPos>
+												<XPos>60</XPos>
+												<YPos>0.21716</YPos>
 												<Flags>37</Flags>
 											</Point>
 										</PointList>
@@ -251,6 +256,9 @@
 							</ValueList>
 						</Property>
 						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-10</Value>
+							</ValueList>
 							<RTPCList>
 								<RTPC Name="" ID="{115A6E6B-7E91-425F-8429-D92F5BF41463}" ShortID="918613538">
 									<ReferenceList>
