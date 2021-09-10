@@ -308,6 +308,28 @@
 						<ActiveSource Name="wave_crash" ID="{D01D09D0-62EE-4C84-9B48-B7868511A0CA}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<Sound Name="stinger" ID="{727FBACE-1CD7-4F88-9855-9AF2A427FF8A}" ShortID="669909761">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CA5C8DA8-027D-484B-8EFC-A59E2900D49B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{507FC1C7-587C-4C77-86F7-8AB7DC695199}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="stinger" ID="{5D0F58C1-C100-43BB-82B4-E386701BC1F8}">
+							<Language>SFX</Language>
+							<AudioFile>stinger.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="431460421"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="stinger" ID="{5D0F58C1-C100-43BB-82B4-E386701BC1F8}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

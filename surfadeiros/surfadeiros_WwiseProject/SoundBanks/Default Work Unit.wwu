@@ -5,6 +5,7 @@
 			<ChildrenList>
 				<SoundBank Name="MainMenu" ID="{59F07FD4-2BFA-476C-B86E-9D0393FF4875}">
 					<ObjectInclusionList>
+						<ObjectRef Name="PlayStinger" ID="{38B6A69C-4625-42C4-A986-72AB86F8746A}" WorkUnitID="{DA19852C-20D4-429E-A76D-EE1F9217AF7A}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PlayMainMenu" ID="{8EBE7AB0-72B0-45B7-9370-53A98C998056}" WorkUnitID="{DA19852C-20D4-429E-A76D-EE1F9217AF7A}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="StopMainMenu" ID="{45A31C40-BED9-4E3C-A402-98E808F9FD7E}" WorkUnitID="{DA19852C-20D4-429E-A76D-EE1F9217AF7A}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>

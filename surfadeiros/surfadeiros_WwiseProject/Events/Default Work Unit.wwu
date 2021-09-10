@@ -190,6 +190,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="PlayStinger" ID="{38B6A69C-4625-42C4-A986-72AB86F8746A}">
+					<ChildrenList>
+						<Action Name="" ID="{FDEF0674-C82E-4311-AAF9-000EF00AC883}" ShortID="589164188">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="stinger" ID="{727FBACE-1CD7-4F88-9855-9AF2A427FF8A}" WorkUnitID="{2950EFB8-BB73-4B3F-9F90-905F2B8206AE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

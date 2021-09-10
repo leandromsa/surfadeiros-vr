@@ -19,6 +19,7 @@ public class MainMenuController : MonoBehaviour
 
     public void startGame() {
         SceneManager.LoadScene("SceneSeixas");
+        AkSoundEngine.PostEvent("PlayStinger", gameObject);
         AkSoundEngine.PostEvent("StopMainMenu", gameObject);
     }
 
