@@ -19,6 +19,8 @@ public class PlayerLocomotion : MonoBehaviour
     Vector3 _lastPosition;
     float _velocity = 0f;
 
+    public bool isRunning = false;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -71,7 +73,8 @@ public class PlayerLocomotion : MonoBehaviour
         //        Debug.Log(boardSpeed);
         boardSpeed = Mathf.Lerp(_velocity, maxBoardSpeed, 1f);
 
-        _rb.velocity = ((camForward * boardSpeed * 1.5f)  + (camRight * headTilt * boardHandle) + new Vector3(0, _rb.velocity.y, 0)) + Vector3.down * 9.8f * Time.deltaTime;
+        if(isRunning)
+            _rb.velocity = ((camForward * boardSpeed * 1.5f)  + (camRight * headTilt * boardHandle) + new Vector3(0, _rb.velocity.y, 0)) + Vector3.down * 9.8f * Time.deltaTime;
         
         /*if (_rb.velocity.magnitude < boardSpeed) {
             //_rb.AddForce(camForward * boardSpeed, ForceMode.Acceleration);
